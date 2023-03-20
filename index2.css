@@ -63,11 +63,11 @@ main .chart {
 }
 
 footer .container{
+  max-width: 1170px;
   margin:auto;
 }
 .row{
   display: flex;
-  flex-wrap: wrap;
 }
 ul{
   list-style: none;
