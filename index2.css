@@ -40,6 +40,7 @@ body {
 main {
     position: relative;
     min-height: 100%;
+    max-width: 1920px;
     padding-top: 100px;
 }
 
