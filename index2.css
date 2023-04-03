@@ -56,6 +56,10 @@ main .chart {
     height:350px;
     display: flex;
 }
+main .chart #map{
+	height=500px;
+	width=800px;
+}
 
 main a {
   color: white;
