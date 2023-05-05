@@ -43,9 +43,6 @@ header {
 }
 
 .underbox {
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
-    font-weight: 10;
     width: 70%;
     display:flex;
     justify-content: space-between;
@@ -55,9 +52,16 @@ header {
     display: inline;
 }
 
+.underbox li a {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+
+}
+
 body {
     background-color: #2B2B2B;
     font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
 #wrapper {
     padding-left: 0;
@@ -237,6 +241,7 @@ ul{
    padding: 0 15px;
 }
 .footer-col h4{
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
@@ -258,12 +263,12 @@ ul{
   margin-bottom: 10px;
 }
 .footer-col ul li a{
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
+  font-weight: 400;
   display: block;
   transition: all 0.3s ease;
 }
@@ -272,16 +277,16 @@ ul{
   padding-left: 8px;
 }
 .footer-col .social-links a{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255,255,255,0.2);
-  margin:0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
   color: #24262b;
