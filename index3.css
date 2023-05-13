@@ -51,6 +51,7 @@ header {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
+    list-style: none;
 }
 
 .navbar .promote {
