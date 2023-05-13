@@ -51,7 +51,6 @@ header {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    list-style: none;
 }
 
 .navbar .promote {
@@ -79,6 +78,7 @@ text-decoration: none;
     width: 70%;
     display:flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .underbox li a{
