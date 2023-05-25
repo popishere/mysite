@@ -11,6 +11,111 @@ header {
     	z-index: 1000;
 }
 
+header .my-header {
+	position:fixed;
+	display:flex
+}
+
+#h-login {
+    margin-left: auto;
+    display: flex;
+    align-content: center;
+}
+
+#h-login-av-container {
+    position: relative;
+    margin-left: 0.3em;
+    z-index: 1;
+}
+
+#h-login-av {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: var(--background-3);
+    height: 100%;
+    padding: 0 2em 0 calc((var(--header-h1) - 3em) / 2);
+    max-width: 30em;
+    min-width: 7em;
+    overflow: hidden;
+}
+
+#h-login-av img {
+    height: 3em;
+    border-radius: 1.5em;
+    margin: 0.5em 0;
+    box-shadow: 0px 0px 5em 0px var(--light);
+}
+
+#h-login-av span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.classic-auth {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: auto;
+    border-radius: var(--header-h1);
+    overflow: hidden;
+}
+
+.classic-auth a {
+    display: flex;
+    align-content: center;
+    height: inherit;
+    align-items: center;
+}
+
+#classic-login {
+    background: var(--background-3);
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+
+#classic-register {
+    background: var(--background-4);
+    padding-right: 1em;
+    padding-left: 0.5em;
+}
+
+#h-login-tg-container {
+    display: flex;
+    margin-right: calc((var(--header-h1) - 40px) / 2);
+    gap: calc((var(--header-h1) - 40px) / 2);
+    overflow: hidden;
+}
+
+#telegram-login-dark_metrics_bot {
+    margin: auto;
+    max-width: 30em;
+    border-radius: 20px;
+}
+
+#auth_menu {
+    position: absolute;
+    background: var(--background-3);
+    padding: 1em;
+    padding-top: 0.5em;
+    list-style: none;
+    margin: 0;
+    width: -webkit-fill-available;
+    box-shadow: 0px 0px 30px 0px var(--background);
+    z-index: -1;
+}
+
+#auth_menu li {
+    margin: 0.2em 0;
+}
+
+#auth_menu li a {
+}
+
+
 .title-box {
     height: 80px;
     padding: 2.5px;
