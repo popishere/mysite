@@ -1,14 +1,14 @@
 header {
-	background: #222121;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	overflow: hidden;
 	display: inline-block;
-    	vertical-align: middle;
-    	box-shadow: 0 0 35px 0 rgba(30,26,26,.5);
-    	z-index: 1000;
+    vertical-align: middle;
+    box-shadow: 0 0 35px 0 rgba(30,26,26,.5);
+    z-index: 1000;
+    background: #222121;
 }
 
 header .my-header {
@@ -25,7 +25,8 @@ header .my-header {
 #h-login-av-container {
     position: relative;
     margin-left: 0.3em;
-    z-index: 1;
+    z-index: 1000;
+    padding-right: 20px;
 }
 
 #h-login-av {
@@ -43,11 +44,12 @@ header .my-header {
 #h-login-av img {
     height: 3em;
     border-radius: 1.5em;
-    margin: 0.5em 0;
+    margin: 0.5em;
     box-shadow: 0px 0px 5em 0px var(--light);
 }
 
 #h-login-av span {
+    padding-right: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -58,7 +60,7 @@ header .my-header {
 .classic-auth {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 80px;
     margin: auto;
     border-radius: var(--header-h1);
     overflow: hidden;
@@ -74,13 +76,21 @@ header .my-header {
 #classic-login {
     background: var(--background-3);
     padding-left: 1em;
-    padding-right: 0.5em;
+    padding-right: 0.6em;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+#telegram-login-Deeptownparse_bot {
+    margin: auto;
 }
 
 #classic-register {
     background: var(--background-4);
     padding-right: 1em;
     padding-left: 0.5em;
+    color: #f2f2f2;
+    text-decoration: none;
 }
 
 #h-login-tg-container {
@@ -97,15 +107,17 @@ header .my-header {
 }
 
 #auth_menu {
+    font-size: 12px;
+    font-weight: 900;
     position: absolute;
     background: var(--background-3);
-    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
     padding-top: 0.5em;
     list-style: none;
     margin: 0;
-    width: -webkit-fill-available;
     box-shadow: 0px 0px 30px 0px var(--background);
-    z-index: -1;
+    height: 40px
 }
 
 #auth_menu li {
@@ -113,15 +125,24 @@ header .my-header {
 }
 
 #auth_menu li a {
+    text-decoration: none;
+    color: #f2f2f2;
 }
 
+.hidden {
+    display: none!important;
+}
+
+.hide-op {
+    opacity: 0;
+}
 
 .title-box {
     height: 80px;
-    padding: 2.5px;
     display: flex;
     margin: auto;
     justify-content: center;
+
 }
 
 .title-block {
@@ -150,7 +171,7 @@ header .my-header {
 .navbar {
     height: 52px;
     width: 100%;
-    background: rgba(255,255,255,.05);
+    background-color: rgba(255,255,255,.05);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -159,7 +180,7 @@ header .my-header {
 }
 
 .navbar .promote {
-    color: #fff;
+    color: #f2f2f2;
 }
 
 a.promote-link {
@@ -167,7 +188,7 @@ a.promote-link {
     height: 100%;
     text-align: center;
     align-items: center;
-    color: #fff;
+    color: #f2f2f2;
     padding: auto;
 }
 
@@ -201,6 +222,7 @@ body {
     background-color: #1A1A1D;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    color: #f2f2f2;
 }
 
 #wrapper {
@@ -308,9 +330,38 @@ main .description {
     width: 100%;
     height: 350px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .about {
+    width: 100%;
+    height: 100px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+main .about .name {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .about .name .header {
+    text-align: center;
+}
+
+main .about .name .info {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px;
+    color: #ffffff;
+}
+
+main .about .name .status {
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #ffffff;
 }
 
 main .chapter {
