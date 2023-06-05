@@ -1,0 +1,40 @@
+.light-theme {
+    --background: #c4c4c4;
+    --background-2: #fff9;
+    --background-3: #8a8a8a91;
+    --background-4: #a5a5a5;
+    --light: #27ff00;
+    --light-2: rgb(44 255 0 / 25%);
+    --text: #000;
+    --color: #000;
+}
+
+.dark-theme {
+    --background: #000000;
+    --background-2: #191e22;
+    --background-3: #2e363e;
+    --background-4: #3d454e;
+    --light: #54a9eb;
+    --light-2:
+    rgba(0, 123, 255, 0.25);
+    --light-3: #bf3535;
+    --text: #f2f2f2;
+    --color: #f2f2f2;
+}
+
+#switch-theme {
+    background: none;
+    border: none;
+    padding: 0;
+    fill: var(--text);
+    margin-right: 0.3em;
+}
+
+#switch-theme-svg {
+    width: 2.6em;
+    height: 2.6em;
+}
+
+#switch-theme-light {
+    transition: opacity 1s;
+}
